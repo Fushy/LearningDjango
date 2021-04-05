@@ -17,8 +17,14 @@ from django.conf import settings
 from django.conf.urls import include, url
 from django.contrib import admin
 
+# Les chemins à partir de la page http://127.0.0.1:8000/
+from django.http import HttpResponse
+
 urlpatterns = [
+    url(r'^$', lambda _: HttpResponse("Main Page")),
     url(r'^admin/', admin.site.urls),
+    url(r'^store/', include('store.urls')),
+    url(r'.*', lambda _: HttpResponse("Undefined Page")),
 ]
 
 if settings.DEBUG:
