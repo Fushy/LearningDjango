@@ -12,9 +12,12 @@ What commands used.
 
 - pip install psycopg2
 - pip install django-debug-toolbar
+- django-admin startproject djangoTest
+- django-admin startapp store
 
 https://agea.github.io/tutorial.md/
 
 ## How to launch
 
-python manage.py runserver
+- python manage.py migrate
+- python manage.py runserver
