@@ -1,0 +1,7 @@
+Une vue est une méthode qui génère le contenu à renvoyer à une requête. Il s'agit d'une méthode qui renvoie une réponse à une requête HTTP.
+Une vue peut répondre à plusieurs URL.
+
+On appelle route un schéma d'url correspondant à une vue.
+
+Le modèle interagit avec la base de données. Sa mission est de chercher dans une base de donnée les items correspondant à une requête et de renvoyer une réponse facilement exploitable par le programme.
+
