@@ -8,7 +8,7 @@ What to install.
 
 - PostgreSQL: https://www.postgresql.org/download/
 
-What commands used.
+Commands used.
 
 - pip install psycopg2
 - pip install django-debug-toolbar
